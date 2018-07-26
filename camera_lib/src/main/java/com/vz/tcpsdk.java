@@ -268,8 +268,7 @@ public class tcpsdk {
     	}
     	catch(UnsatisfiedLinkError e) {
 			// fatal error, we can't load some our libs
-			TagLibUtil.showLogDebug("tcpsdk", "Couldn't load lib: " + " - " + e.getMessage());
-			
+
 		}
     }
 }
